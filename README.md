@@ -1,13 +1,13 @@
-# 🎮 HeroShowdown (UEFN)
+# HeroShowdown (UEFN)
 
 **Language:** Verse | **Platform:** Unreal Editor for Fortnite (UEFN) | **Status:** In Development (Hiatus)
 
-### 📖 Project Overview
+### Project Overview
 HeroShowdown is a competitive multiplayer arena shooter developed using **Verse** and **UEFN**. It features a custom-built class system with 25+ unique hero archetypes, state-managed game modes, and a reactive UI system.
 
 While currently on academic hiatus, the core logic for the "Wipeout" and "Gem Grab" game modes is fully functional.
 
-### ⚙️ Technical Highlights
+### Technical Highlights
 
 #### 1. Custom Class & Ability System (`custom_player.verse`)
 Built a scalable class inheritance system handling unique logic for over 20 distinct characters.
@@ -29,7 +29,7 @@ A central `creative_device` manager that handles the game loop lifecycle:
 
 ---
 
-### 📂 File Structure
+### File Structure
 * `verse/Game_Manager.verse`: The main brain of the island. Handles the `OnBegin` event, player spawning, and round orchestration.
 * `verse/custom_player.verse`: The object-oriented player wrapper. Stores per-player variables (Ammo, Class ID, Cooldowns) and handles specific ability execution.
 
