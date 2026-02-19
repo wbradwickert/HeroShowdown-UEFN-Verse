@@ -33,7 +33,7 @@ A central `creative_device` manager that handles the game loop lifecycle:
 * `verse/Game_Manager.verse`: The main brain of the island. Handles the `OnBegin` event, player spawning, and round orchestration.
 * `verse/custom_player.verse`: The object-oriented player wrapper. Stores per-player variables (Ammo, Class ID, Cooldowns) and handles specific ability execution.
 
-### 🔮 Future Roadmap
+### Future Roadmap
 * Refine the "Heist" game mode logic.
 * Optimize the "Train" cinematic sequence loop in the Subway map.
 * Publish to Fortnite Live Servers.
